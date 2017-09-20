@@ -34,6 +34,7 @@ public class AgeCalculatorServlet extends HttpServlet {
             getServletContext().getRequestDispatcher("/WEB-INF/ageCalculator.jsp").forward(request, response);
             return;
         }
+        //if user enters age as a number
         else
         {
             try
