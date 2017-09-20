@@ -16,7 +16,7 @@ and open the template in the editor.
         <h1>Age Calculator</h1>
         <div>
             <form action="ageCalculator" method="get">
-                Enter Current Age: <input type="number" name="age" value="${age}">
+                Enter Current Age: <input type="text" name="age" value="${age}">
                 <input type="submit" value="Age next birthday">
             </form>
             
